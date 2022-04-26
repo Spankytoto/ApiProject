@@ -10,5 +10,4 @@ public interface BaseUrl {
     String CREATE = "api/users";
     String LOGIN = "api/login";
     String DELAYED_RESPONSE = "/api/users?delay=3";
-
 }
