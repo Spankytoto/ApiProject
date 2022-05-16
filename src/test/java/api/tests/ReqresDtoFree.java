@@ -1,11 +1,11 @@
-package api.tests;
+package api.test;
 
 import api.core.BaseUrl;
 import api.core.Specifications;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
-import org.junit.Assert;
-import org.junit.Test;
+import org.testng.Assert;
+import org.testng.annotations.Test;
 
 import java.util.HashMap;
 import java.util.List;

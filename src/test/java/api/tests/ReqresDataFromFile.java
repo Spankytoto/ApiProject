@@ -1,4 +1,4 @@
-package api.tests;
+package api.test;
 
 import api.core.BaseUrl;
 import api.core.Specifications;
@@ -6,8 +6,9 @@ import api.dto.RegisterData;
 import api.dto.User;
 import api.helpers.DateHelper;
 import api.helpers.JsonReader;
-import org.junit.Assert;
-import org.junit.Test;
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
 
 import static io.restassured.RestAssured.given;
 

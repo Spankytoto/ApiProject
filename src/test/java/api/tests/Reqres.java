@@ -1,11 +1,11 @@
-package api.tests;
+package api.test;
 
 import api.core.BaseUrl;
 import api.core.Specifications;
 import api.dto.*;
 import api.helpers.DateHelper;
-import org.junit.Assert;
-import org.junit.Test;
+import org.testng.Assert;
+import org.testng.annotations.Test;
 
 import static io.restassured.RestAssured.*;
 
@@ -29,6 +29,8 @@ public class Reqres implements BaseUrl {
         Assert.assertTrue(user.getData().getEmail().endsWith("@reqres.in"));
         Assert.assertEquals(user.getSupport().getText(), "To keep ReqRes free, contributions towards server costs are appreciated!");
         Assert.assertTrue(user.getData().getAvatar().contains(user.getData().getId().toString()));
+
+        System.out.println(user);
     }
 
     @Test
