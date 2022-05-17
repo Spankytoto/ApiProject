@@ -1,4 +1,4 @@
-package api.test;
+package api.tests;
 
 import api.core.BaseUrl;
 import api.core.Specifications;
@@ -12,7 +12,7 @@ import org.testng.annotations.Test;
 
 import static io.restassured.RestAssured.given;
 
-public class ReqresDataFromFile implements BaseUrl {
+public class ReqresDataFromFileTest implements BaseUrl {
 
     @Test
     public void checkRegistration () {

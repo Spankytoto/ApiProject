@@ -1,4 +1,4 @@
-package api.test;
+package api.tests;
 
 import api.core.BaseUrl;
 import api.core.Specifications;
@@ -15,7 +15,7 @@ import static io.restassured.RestAssured.given;
 import static org.hamcrest.core.IsEqual.equalTo;
 import static org.hamcrest.core.IsNull.notNullValue;
 
-public class ReqresDtoFree implements BaseUrl {
+public class ReqresDtoFreeTest implements BaseUrl {
 
     @Test
     public void checkAvatars() {

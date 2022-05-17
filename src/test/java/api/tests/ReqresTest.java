@@ -1,4 +1,4 @@
-package api.test;
+package api.tests;
 
 import api.core.BaseUrl;
 import api.core.Specifications;
@@ -12,7 +12,7 @@ import static io.restassured.RestAssured.*;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class Reqres implements BaseUrl {
+public class ReqresTest implements BaseUrl {
 
     @Test
     public void getSingleUser() {

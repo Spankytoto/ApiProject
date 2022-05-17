@@ -2,6 +2,7 @@ package api.core;
 
 public interface BaseUrl {
     String BASE_URL = "https://reqres.in/";
+    String MOCK_URL = "http://localhost:9060/";
     String LIST_USERS = "api/users?page=2";
     String USER = "api/users/%s";
     String REGISTER = "api/register";
