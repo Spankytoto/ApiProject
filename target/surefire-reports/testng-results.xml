@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="26" passed="26">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="17910" started-at="2022-05-17T18:26:51Z" finished-at="2022-05-17T18:27:09Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="17910" started-at="2022-05-17T18:26:51Z" finished-at="2022-05-17T18:27:09Z">
+      <class name="api.tests.ReqresDtoFreeTest">
+        <test-method status="PASS" signature="checkAvatars()[pri:0, instance:api.tests.ReqresDtoFreeTest@6ea12c19]" name="checkAvatars" duration-ms="910" started-at="2022-05-17T18:26:57Z" finished-at="2022-05-17T18:26:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkAvatars -->
+        <test-method status="PASS" signature="successRegistration()[pri:0, instance:api.tests.ReqresDtoFreeTest@6ea12c19]" name="successRegistration" duration-ms="554" started-at="2022-05-17T18:26:58Z" finished-at="2022-05-17T18:26:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- successRegistration -->
+        <test-method status="PASS" signature="unSuccessRegistration()[pri:0, instance:api.tests.ReqresDtoFreeTest@6ea12c19]" name="unSuccessRegistration" duration-ms="577" started-at="2022-05-17T18:26:58Z" finished-at="2022-05-17T18:26:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unSuccessRegistration -->
+      </class> <!-- api.tests.ReqresDtoFreeTest -->
+      <class name="api.tests.MockTest">
+        <test-method status="PASS" signature="startMockServer()[pri:0, instance:api.tests.MockTest@458ad742]" name="startMockServer" is-config="true" duration-ms="591" started-at="2022-05-17T18:26:51Z" finished-at="2022-05-17T18:26:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startMockServer -->
+        <test-method status="PASS" signature="checkRegister()[pri:0, instance:api.tests.MockTest@458ad742]" name="checkRegister" duration-ms="895" started-at="2022-05-17T18:26:52Z" finished-at="2022-05-17T18:26:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkRegister -->
+        <test-method status="PASS" signature="checkUnSuccessRegister()[pri:0, instance:api.tests.MockTest@458ad742]" name="checkUnSuccessRegister" duration-ms="25" started-at="2022-05-17T18:26:53Z" finished-at="2022-05-17T18:26:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkUnSuccessRegister -->
+        <test-method status="PASS" signature="deleteUserTest()[pri:0, instance:api.tests.MockTest@458ad742]" name="deleteUserTest" duration-ms="13" started-at="2022-05-17T18:26:53Z" finished-at="2022-05-17T18:26:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUserTest -->
+        <test-method status="PASS" signature="stopMockServer()[pri:0, instance:api.tests.MockTest@458ad742]" name="stopMockServer" is-config="true" duration-ms="8" started-at="2022-05-17T18:26:53Z" finished-at="2022-05-17T18:26:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopMockServer -->
+      </class> <!-- api.tests.MockTest -->
+      <class name="api.tests.ReqresTest">
+        <test-method status="PASS" signature="checkAvatarAndId()[pri:0, instance:api.tests.ReqresTest@6a024a67]" name="checkAvatarAndId" duration-ms="538" started-at="2022-05-17T18:26:59Z" finished-at="2022-05-17T18:26:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkAvatarAndId -->
+        <test-method status="PASS" signature="checkListResources()[pri:0, instance:api.tests.ReqresTest@6a024a67]" name="checkListResources" duration-ms="453" started-at="2022-05-17T18:26:59Z" finished-at="2022-05-17T18:27:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkListResources -->
+        <test-method status="PASS" signature="checkNullRegistration()[pri:0, instance:api.tests.ReqresTest@6a024a67]" name="checkNullRegistration" duration-ms="438" started-at="2022-05-17T18:27:00Z" finished-at="2022-05-17T18:27:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkNullRegistration -->
+        <test-method status="PASS" signature="checkRegistration()[pri:0, instance:api.tests.ReqresTest@6a024a67]" name="checkRegistration" duration-ms="487" started-at="2022-05-17T18:27:00Z" finished-at="2022-05-17T18:27:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkRegistration -->
+        <test-method status="PASS" signature="checkResourcesList()[pri:0, instance:api.tests.ReqresTest@6a024a67]" name="checkResourcesList" duration-ms="455" started-at="2022-05-17T18:27:01Z" finished-at="2022-05-17T18:27:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResourcesList -->
+        <test-method status="PASS" signature="createUser()[pri:0, instance:api.tests.ReqresTest@6a024a67]" name="createUser" duration-ms="548" started-at="2022-05-17T18:27:01Z" finished-at="2022-05-17T18:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method status="PASS" signature="deleteUserTest()[pri:0, instance:api.tests.ReqresTest@6a024a67]" name="deleteUserTest" duration-ms="543" started-at="2022-05-17T18:27:02Z" finished-at="2022-05-17T18:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUserTest -->
+        <test-method status="PASS" signature="getDelayedResponse()[pri:0, instance:api.tests.ReqresTest@6a024a67]" name="getDelayedResponse" duration-ms="3508" started-at="2022-05-17T18:27:02Z" finished-at="2022-05-17T18:27:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getDelayedResponse -->
+        <test-method status="PASS" signature="getSingleResource()[pri:0, instance:api.tests.ReqresTest@6a024a67]" name="getSingleResource" duration-ms="405" started-at="2022-05-17T18:27:06Z" finished-at="2022-05-17T18:27:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSingleResource -->
+        <test-method status="PASS" signature="getSingleUser()[pri:0, instance:api.tests.ReqresTest@6a024a67]" name="getSingleUser" duration-ms="433" started-at="2022-05-17T18:27:06Z" finished-at="2022-05-17T18:27:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSingleUser -->
+        <test-method status="PASS" signature="getSingleUserNotFound()[pri:0, instance:api.tests.ReqresTest@6a024a67]" name="getSingleUserNotFound" duration-ms="599" started-at="2022-05-17T18:27:07Z" finished-at="2022-05-17T18:27:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSingleUserNotFound -->
+        <test-method status="PASS" signature="getUserUpdateTime()[pri:0, instance:api.tests.ReqresTest@6a024a67]" name="getUserUpdateTime" duration-ms="529" started-at="2022-05-17T18:27:07Z" finished-at="2022-05-17T18:27:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserUpdateTime -->
+        <test-method status="PASS" signature="loginWithProperlyData()[pri:0, instance:api.tests.ReqresTest@6a024a67]" name="loginWithProperlyData" duration-ms="492" started-at="2022-05-17T18:27:08Z" finished-at="2022-05-17T18:27:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithProperlyData -->
+        <test-method status="PASS" signature="loginWithWrongData()[pri:0, instance:api.tests.ReqresTest@6a024a67]" name="loginWithWrongData" duration-ms="507" started-at="2022-05-17T18:27:08Z" finished-at="2022-05-17T18:27:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithWrongData -->
+        <test-method status="PASS" signature="singleResourceNotFound()[pri:0, instance:api.tests.ReqresTest@6a024a67]" name="singleResourceNotFound" duration-ms="628" started-at="2022-05-17T18:27:09Z" finished-at="2022-05-17T18:27:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- singleResourceNotFound -->
+      </class> <!-- api.tests.ReqresTest -->
+      <class name="api.tests.ReqresDataFromFileTest">
+        <test-method status="PASS" signature="checkNullRegistration()[pri:0, instance:api.tests.ReqresDataFromFileTest@5afa04c]" name="checkNullRegistration" duration-ms="1622" started-at="2022-05-17T18:26:53Z" finished-at="2022-05-17T18:26:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkNullRegistration -->
+        <test-method status="PASS" signature="checkRegistration()[pri:0, instance:api.tests.ReqresDataFromFileTest@5afa04c]" name="checkRegistration" duration-ms="586" started-at="2022-05-17T18:26:55Z" finished-at="2022-05-17T18:26:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkRegistration -->
+        <test-method status="PASS" signature="createUser()[pri:0, instance:api.tests.ReqresDataFromFileTest@5afa04c]" name="createUser" duration-ms="567" started-at="2022-05-17T18:26:55Z" finished-at="2022-05-17T18:26:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method status="PASS" signature="loginWithProperlyData()[pri:0, instance:api.tests.ReqresDataFromFileTest@5afa04c]" name="loginWithProperlyData" duration-ms="465" started-at="2022-05-17T18:26:56Z" finished-at="2022-05-17T18:26:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithProperlyData -->
+        <test-method status="PASS" signature="loginWithWrongData()[pri:0, instance:api.tests.ReqresDataFromFileTest@5afa04c]" name="loginWithWrongData" duration-ms="516" started-at="2022-05-17T18:26:56Z" finished-at="2022-05-17T18:26:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithWrongData -->
+      </class> <!-- api.tests.ReqresDataFromFileTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
