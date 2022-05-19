@@ -1,6 +1,5 @@
 package api.tests;
 
-import api.core.BaseUrl;
 import api.mocks.Mocks;
 import io.restassured.response.Response;
 import org.testng.Assert;
@@ -10,7 +9,7 @@ import java.util.HashMap;
 
 import static io.restassured.RestAssured.given;
 
-public class MockTest extends Mocks implements BaseUrl {
+public class MockTest extends Mocks {
 
     @Test
     public static void checkRegister() {
@@ -53,6 +52,5 @@ public class MockTest extends Mocks implements BaseUrl {
                             .delete(MOCK_URL + String.format(USER, 2));
 
         Assert.assertEquals(response.statusCode(), 204);
-
     }
 }
